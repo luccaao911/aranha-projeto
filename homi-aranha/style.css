@@ -1,0 +1,182 @@
+body {
+    background: url(./Design\ sem\ nome.png) repeat-x ;
+    background-size: auto;
+    overflow-y: hidden;
+    
+}
+
+.navbar {
+    background: #060606 linear-gradient(white,red) left to right;
+}
+
+.container img {
+    width: 150px;
+    margin-top: 15px;  
+}
+
+.navbar {
+    height: 110px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.navbar .navbar-nav a {
+    color: rgb(251, 249, 249);
+}
+
+.navbar .navbar-nav a:hover {
+    color: rgb(249, 244, 244);
+}
+
+.navbar .navbar-nav {
+    position: absolute;
+    left: 720px;
+    
+}
+
+
+
+section {
+    
+    
+    
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 1.1em;
+    
+    color: #fff;
+}
+
+
+
+@font-face {
+    font-family: amazing;
+    src: url(./font/the_amazing_spider_man/The\ Amazing\ Spider-Man.ttf);
+}
+.fonta h1{
+    position: relative;
+    font-family: amazing;
+    font-size: 9.1em;
+    padding-top: 40px;
+    text-align: center;
+    
+
+}
+
+.aranha img {
+    position: absolute;
+    width: 500px;
+    top: 100px;
+    opacity: 20%;
+    
+
+}
+
+@keyframes anima {
+    from {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    to{
+        position: absolute;
+        width: 1000px;
+        
+        transition: 0.5s;
+        
+        z-index: 1;
+        object-fit: cover;
+    }
+}
+
+.homem img {
+    position: absolute;
+    width: 1000px;
+    
+    transition: 0.5s;
+    
+    z-index: 1;
+    object-fit: cover;
+}
+
+.homem img:hover {
+    
+    
+    
+    transform: translatey(-150px);
+    
+    
+    
+ }
+ 
+
+ .caixa .btn {
+     
+    background: #3553a7;
+    transition: 0.4s;
+ }
+
+ .caixa .btn:hover {
+    color: rgb(249, 246, 246);
+    background: #f70707;
+    
+    transform: scale(1.2);
+    
+ }
+
+
+.container .conteudo {
+    
+    width: 800px;
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+.container .btn {
+    margin-left: 200px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #00439C;
+    
+    
+}
+
+.container p a {
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+    
+}
+
+.container p a:hover {
+    color: #1d98c4;
+    margin-left: 50px;
+    text-decoration: none;
+    
+}
+
+.container p img {
+    color: #1d98c4;
+    margin: 0;
+    width: 125px;
+    
+    
+}
+
+
+
+
+
+
